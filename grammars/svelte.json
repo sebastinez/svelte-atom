@@ -203,7 +203,7 @@
                     "include": "#tag-stuff"
                 },
                 {
-                    "contentName": "source.css.postcss",
+                    "contentName": "source.postcss",
                     "begin": "(>)",
                     "beginCaptures": {
                         "1": {
@@ -213,7 +213,7 @@
                     "end": "(?=</style>)",
                     "patterns": [
                         {
-                            "include": "source.css.postcss"
+                            "include": "source.postcss"
                         }
                     ]
                 }
